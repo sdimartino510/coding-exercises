@@ -22,7 +22,6 @@ inquirer
 
     const orderAmount = answers.inputOrderAmount;
     const state = answers.inputState;
-    // let tax = "";
 
     if (state === "WI") {
       var tax = (orderAmount * 55) / 1000;
