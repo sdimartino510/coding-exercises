@@ -8,7 +8,7 @@ console.log("");
 inquirer
   .prompt([
     {
-      type: "string",
+      type: "password",
       name: "inputPassword",
       message: "Please enter your password:"
     }
